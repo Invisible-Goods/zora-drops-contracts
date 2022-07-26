@@ -112,7 +112,6 @@ export async function deployAndVerify(contract, args) {
     deployed.args
   );
   console.log(`[verified] ${contract}`);
-  // console.log(verified)
   return {
     deployed,
     verify: verified,
