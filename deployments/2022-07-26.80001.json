@@ -1,0 +1,100 @@
+{
+  "feeManager": {
+    "deployed": {
+      "deploy": {
+        "deployedTo": "0xd86fdd83d5647d7dec37e7ae27c66637570e0f12",
+        "deployer": "0xe662f9575634dbbca894b756d1a19a851c824f00",
+        "transactionHash": "0x2e7e773b6c19b5d938aa797c023645711fa1be79abc4ba7438b9b9317649e57c"
+      },
+      "contractName": "ZoraFeeManager",
+      "contractPath": "src/ZoraFeeManager.sol",
+      "args": [
+        "500",
+        "0xcfBf34d385EA2d5Eb947063b67eA226dcDA3DC38"
+      ]
+    },
+    "verify": {
+      "verify": "\nSubmitting verification for [src/ZoraFeeManager.sol:ZoraFeeManager] 0xd86fdd83d5647d7dec37e7ae27c66637570e0f12.\nSubmitted contract for verification:\n\tResponse: `OK`\n\tGUID: `jswiddzwv2gxk3bctesrzharp9zfbyhx3jv9wtdrr15ghsigdr`\n\tURL: https://mumbai.polygonscan.com/address/0xd86fdd83d5647d7dec37e7ae27c66637570e0f12\n",
+      "contractName": "ZoraFeeManager",
+      "contractPath": "src/ZoraFeeManager.sol"
+    }
+  },
+  "dropContract": {
+    "deployed": {
+      "deploy": {
+        "deployedTo": "0x629fee02f3be0e26cbcd86d31322f67bb06c83de",
+        "deployer": "0xe662f9575634dbbca894b756d1a19a851c824f00",
+        "transactionHash": "0x854b48428ca58ea526666c4cec951d6655d4ef53392f57294c50538dc57010a9"
+      },
+      "contractName": "ERC721Drop",
+      "contractPath": "src/ERC721Drop.sol",
+      "args": [
+        "0xd86fdd83d5647d7dec37e7ae27c66637570e0f12",
+        "0x909e9efE4D87d1a6018C2065aE642b6D0447bc91",
+        "0x8b99f02ca101a1678a21502408edbe4b75af58a2"
+      ]
+    },
+    "verify": {
+      "verify": "\nSubmitting verification for [src/ERC721Drop.sol:ERC721Drop] 0x629fee02f3be0e26cbcd86d31322f67bb06c83de.\nSubmitted contract for verification:\n\tResponse: `OK`\n\tGUID: `xkvqd2hxv5dtlxjju2ytg1c2zydu8wrjskawsdxusqyzmxf7xz`\n\tURL: https://mumbai.polygonscan.com/address/0x629fee02f3be0e26cbcd86d31322f67bb06c83de\n",
+      "contractName": "ERC721Drop",
+      "contractPath": "src/ERC721Drop.sol"
+    }
+  },
+  "dropMetadataContract": {
+    "deployed": {
+      "deploy": {
+        "deployedTo": "0x4cd2a8d59f82aa6d738a59b46c58628493559800",
+        "deployer": "0xe662f9575634dbbca894b756d1a19a851c824f00",
+        "transactionHash": "0xfbbd782a89adcf08e1c779191eb1fae9b2c7a5406ea53e9116e87f768a894f83"
+      },
+      "contractName": "DropMetadataRenderer",
+      "contractPath": "src/metadata/DropMetadataRenderer.sol"
+    },
+    "verify": {
+      "verify": "\nSubmitting verification for [src/metadata/DropMetadataRenderer.sol:DropMetadataRenderer] 0x4cd2a8d59f82aa6d738a59b46c58628493559800.\nSubmitted contract for verification:\n\tResponse: `OK`\n\tGUID: `vpjkhicfluugefxhrrzvulhkajiepngu9m6updggxjufaxjiky`\n\tURL: https://mumbai.polygonscan.com/address/0x4cd2a8d59f82aa6d738a59b46c58628493559800\n",
+      "contractName": "DropMetadataRenderer",
+      "contractPath": "src/metadata/DropMetadataRenderer.sol"
+    }
+  },
+  "editionsMetadataContract": {
+    "deployed": {
+      "deploy": {
+        "deployedTo": "0x785777e99926cb2c2b4971781bae366cecd47752",
+        "deployer": "0xe662f9575634dbbca894b756d1a19a851c824f00",
+        "transactionHash": "0xa0326c7ba030e27d4a096f24e2630c90f435b1c19583b9b7dd67391e6cd0994c"
+      },
+      "contractName": "EditionMetadataRenderer",
+      "contractPath": "src/metadata/EditionMetadataRenderer.sol",
+      "args": [
+        "0x064173ee5592dd6e3ec8bba6f4a19893ddde22d4"
+      ]
+    },
+    "verify": {
+      "verify": "\nSubmitting verification for [src/metadata/EditionMetadataRenderer.sol:EditionMetadataRenderer] 0x785777e99926cb2c2b4971781bae366cecd47752.\nSubmitted contract for verification:\n\tResponse: `OK`\n\tGUID: `1rj8fqbrcqsvq8qpwseyenxcgumgrpymry2jgmkkvuzxwrziuu`\n\tURL: https://mumbai.polygonscan.com/address/0x785777e99926cb2c2b4971781bae366cecd47752\n",
+      "contractName": "EditionMetadataRenderer",
+      "contractPath": "src/metadata/EditionMetadataRenderer.sol"
+    }
+  },
+  "creatorImpl": {
+    "deployed": {
+      "deploy": {
+        "deployedTo": "0xa0cdb25a6332c06fd6f2680b0923bb291a5d6e7d",
+        "deployer": "0xe662f9575634dbbca894b756d1a19a851c824f00",
+        "transactionHash": "0xc0bfd30e5113c6570650f2609b3f2543231cb6d385c67d12fa6f6881e072b3e6"
+      },
+      "contractName": "ZoraNFTCreatorV1",
+      "contractPath": "src/ZoraNFTCreatorV1.sol",
+      "args": [
+        "0x629fee02f3be0e26cbcd86d31322f67bb06c83de",
+        "0x785777e99926cb2c2b4971781bae366cecd47752",
+        "0x4cd2a8d59f82aa6d738a59b46c58628493559800"
+      ]
+    },
+    "verify": {
+      "verify": "\nSubmitting verification for [src/ZoraNFTCreatorV1.sol:ZoraNFTCreatorV1] 0xa0cdb25a6332c06fd6f2680b0923bb291a5d6e7d.\nSubmitted contract for verification:\n\tResponse: `OK`\n\tGUID: `5ah5ndkyrk3j1msv6s7f788u2kpziqv3nnjp5mbqqjvzicul6y`\n\tURL: https://mumbai.polygonscan.com/address/0xa0cdb25a6332c06fd6f2680b0923bb291a5d6e7d\n",
+      "contractName": "ZoraNFTCreatorV1",
+      "contractPath": "src/ZoraNFTCreatorV1.sol"
+    }
+  },
+  "creatorProxyAddress": ""
+}
